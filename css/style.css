@@ -1,0 +1,89 @@
+header, nav {
+    background: linear-gradient(to right, #1abc9c, black, black);
+}
+
+#about {
+    background: linear-gradient(to left, #1abc9c, black, black);
+}
+
+#ocr {
+    color: #096ed3;
+    font-weight: bold;
+}
+
+#ocr:hover {
+    color: #1abc9c;
+}
+
+#cv,
+#close-cv {
+    display: none;
+    animation: fadein 1.5s;
+}
+
+#show-cv {
+    color: #1abc9c !important;
+}
+
+#show-cv:hover {
+    color: #0a81f8 !important;
+    border-color: #0a81f8 !important;
+}
+
+#name {
+    margin-left: -18rem;
+}
+
+#nav-bar {
+    margin-right: -18rem;
+}
+
+#my-face {
+    margin-right: 12rem;
+}
+
+#job {
+    font-size: 2rem;
+}
+
+.project-item {
+    border: solid black 1px;
+}
+
+.portfolio-item-caption:hover {
+    background-color: #0c437a !important;
+    opacity: 0.8 !important;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+        text-align: center;
+    }
+    
+    #cv {
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    #menu-button {
+        margin-left: 12rem;
+    }
+
+    #name {
+        font-size: 1rem;
+    }
+}
